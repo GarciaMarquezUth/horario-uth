@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horario de Clases</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <header class="header-card">
+      <div class="header-content">
+        <div>
+          <p class="institution">Universidad Tecnológica</p>
+          <h1>Horario de Clases</h1>
+          <div class="meta-info">
+            <span><strong>Tutor:</strong> JESÚS FERNANDO MORALES ROMERO</span>
+          </div>
+          <span><strong>Grupo:LITIID7-1</strong> 7-1</span>
+        </div>
+        
+        <!-- Indicador de Hora y Clase Activa -->
+        <div class="live-clock-card">
+          <div id="clock-display">00:00:00</div>
+          <div id="status-text" class="status-badge">Cargando horario...</div>
+        </div>
+      </div>
+    </header>
+
+    <section class="content-section">
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th class="col-hora">Hora</th>
+              <th>Lunes</th>
+              <th>Martes</th>
+              <th>Miércoles</th>
+              <th>Jueves</th>
+              <th>Viernes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="time-cell">7:00<br>8:00</th>
+              <td></td>
+              <td class="materia-seg"><a href="https://meet.google.com/abc-defg-hij" target="_blank">SEGIN (19)</a></td>
+              <td class="materia-seg"><a href="https://meet.google.com/abc-defg-hij" target="_blank">SEGIN (19)</a></td>
+              <td class="materia-bd"><a href="https://meet.google.com/uhj-txkc-wbt" target="_blank">OSBDN (10)</a></td>
+              <td class="materia-fop"><a href="https://meet.google.com/abc-defg-hij" target="_blank">FOPTE (16)</a></td>
+            </tr>
+            <tr>
+              <th class="time-cell">8:00<br>9:00</th>
+              <td class="materia-ing"><a href="https://meet.google.com/abc-defg-hij" target="_blank">ING6 (26)</a></td>
+              <td class="materia-fop"><a href="https://meet.google.com/abc-defg-hij" target="_blank">FOPTE (16)</a></td>
+              <td class="materia-seg"><a href="https://meet.google.com/abc-defg-hij" target="_blank">SEGIN (19)</a></td>
+              <td class="materia-bd"><a href="https://meet.google.com/uhj-txkc-wbt" target="_blank">OSBDN (10)</a></td>
+              <td class="materia-seg"><a href="https://meet.google.com/abc-defg-hij" target="_blank">SEGIN (19)</a></td>
+            </tr>
+            <tr>
+              <th class="time-cell">9:00<br>10:00</th>
+              <td class="materia-seg"><a href="https://meet.google.com/abc-defg-hij" target="_blank">SEGIN (19)</a></td>
+              <td class="materia-fop"><a href="https://meet.google.com/abc-defg-hij" target="_blank">FOPTE (16)</a></td>
+              <td class="materia-ing"><a href="https://meet.google.com/abc-defg-hij" target="_blank">ING6 (26)</a></td>
+              <td class="materia-fop"><a href="https://meet.google.com/abc-defg-hij" target="_blank">FOPTE (16)</a></td>
+              <td class="materia-etl"><a href="https://meet.google.com/abc-defg-hij" target="_blank">ETLTI (8)</a></td>
+            </tr>
+            <tr>
+              <th class="time-cell">10:00<br>11:00</th>
+              <td class="materia-seg"><a href="https://meet.google.com/abc-defg-hij" target="_blank">SEGIN (19)</a></td>
+              <td class="materia-ia"><a href="https://meet.google.com/vcs-aeqp-ubn" target="_blank">FUNIA (6)</a></td>
+              <td class="materia-bd"><a href="https://meet.google.com/uhj-txkc-wbt" target="_blank">OSBDN (10)</a></td>
+              <td class="materia-hab"><a href="https://meet.google.com/abc-defg-hij" target="_blank">HABGE (3)</a></td>
+              <td class="materia-etl"><a href="https://meet.google.com/abc-defg-hij" target="_blank">ETLTI (8)</a></td>
+            </tr>
+            <tr>
+              <th class="time-cell">11:00<br>12:00</th>
+              <td class="materia-ia"><a href="https://meet.google.com/vcs-aeqp-ubn" target="_blank">FUNIA (6)</a></td>
+              <td class="materia-ia"><a href="https://meet.google.com/vcs-aeqp-ubn" target="_blank">FUNIA (6)</a></td>
+              <td class="materia-bd"><a href="https://meet.google.com/uhj-txkc-wbt" target="_blank">OSBDN (10)</a></td>
+              <td class="materia-hab"><a href="https://meet.google.com/abc-defg-hij" target="_blank">HABGE (3)</a></td>
+              <td class="materia-etl"><a href="https://meet.google.com/abc-defg-hij" target="_blank">ETLTI (8)</a></td>
+            </tr>
+            <tr>
+              <th class="time-cell">12:00<br>13:00</th>
+              <td class="materia-bd"><a href="https://meet.google.com/uhj-txkc-wbt" target="_blank">OSBDN (10)</a></td>
+              <td class="materia-ing"><a href="https://meet.google.com/abc-defg-hij" target="_blank">ING6 (26)</a></td>
+              <td class="materia-hab"><a href="https://meet.google.com/abc-defg-hij" target="_blank">HABGE (3)</a></td>
+              <td class="materia-etl"><a href="https://meet.google.com/abc-defg-hij" target="_blank">ETLTI (8)</a></td>
+              <td class="materia-ia"><a href="https://meet.google.com/vcs-aeqp-ubn" target="_blank">FUNIA (6)</a></td>
+            </tr>
+            <tr>
+              <th class="time-cell">13:00<br>14:00</th>
+              <td class="materia-bd"><a href="https://meet.google.com/uhj-txkc-wbt" target="_blank">OSBDN (10)</a></td>
+              <td class="materia-ing"><a href="https://meet.google.com/abc-defg-hij" target="_blank">ING6 (26)</a></td>
+              <td class="materia-hab"><a href="https://meet.google.com/abc-defg-hij" target="_blank">HABGE (3)</a></td>
+              <td class="materia-ing"><a href="https://meet.google.com/abc-defg-hij" target="_blank">ING6 (26)</a></td>
+              <td class="materia-ia"><a href="https://meet.google.com/vcs-aeqp-ubn" target="_blank">FUNIA (6)</a></td>
+            </tr>
+            <tr>
+              <th class="time-cell">14:00<br>15:00</th>
+              <td></td>
+              <td></td>
+              <td class="materia-ia"><a href="https://meet.google.com/vcs-aeqp-ubn" target="_blank">FUNIA (6)</a></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Sección de Profesores y Asignaturas -->
+      <div class="info-grid">
+        <section class="grid-card">
+          <h3>Profesores</h3>
+          <div class="list-container">
+            <div class="list-item"><span class="badge-num">3</span><span>ADELINA DEL C. V. ALCÁNT</span></div>
+            <div class="list-item"><span class="badge-num">6</span><span>CARLOS ALFONSO GÁMEZ CAR</span></div>
+            <div class="list-item"><span class="badge-num">8</span><span>RODOLFO IVÁN MARTÍNEZ MA</span></div>
+            <div class="list-item"><span class="badge-num">10</span><span>JESÚS FERNANDO MORALES R</span></div>
+            <div class="list-item"><span class="badge-num">16</span><span>JULIA CRUZ HERNÁNDEZ</span></div>
+            <div class="list-item"><span class="badge-num">19</span><span>MARÍA DANITZA TARAZÓN BU</span></div>
+            <div class="list-item"><span class="badge-num">26</span><span>MARÍA GRACIELA VILLANUEV</span></div>
+          </div>
+        </section>
+
+        <section class="grid-card">
+          <h3>Asignaturas</h3>
+          <div class="list-container">
+            <div class="list-item"><span class="badge-code materia-ing">ING6</span><span>INGLÉS VI</span></div>
+            <div class="list-item"><span class="badge-code materia-fop">FOPTE</span><span>FORMULACIÓN D PROYECTOS</span></div>
+            <div class="list-item"><span class="badge-code materia-etl">ETLTI</span><span>ÉTICA Y LEGISLACIÓN EN T</span></div>
+            <div class="list-item"><span class="badge-code materia-seg">SEGIN</span><span>SEGURIDAD INFORMÁTICA</span></div>
+            <div class="list-item"><span class="badge-code materia-hab">HABGE</span><span>HABILIDADES GERENCIALES</span></div>
+            <div class="list-item"><span class="badge-code materia-ia">FUNIA</span><span>FUNDAMENT D INTELIGENCIA</span></div>
+            <div class="list-item"><span class="badge-code materia-bd">OSBDN</span><span>OPT. SIST. BASE DE DATOS</span></div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
